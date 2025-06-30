@@ -1,0 +1,22 @@
+name: moon_app
+description: A beautiful Flutter app showing real-time moon phase information.
+version: 1.0.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  provider: ^6.0.5
+  google_fonts: ^4.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: SpaceMono
+      fonts:
+        - asset: assets/fonts/SpaceMono-Regular.ttf
